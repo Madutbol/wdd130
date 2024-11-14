@@ -1,0 +1,19 @@
+.hero {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    position: absolute;
+}
+
+article{
+    position:absolute;
+}
+
+img article {
+
+    float: right;
+}
+
