@@ -1,0 +1,71 @@
+@import url(https://fonts.google.com/specimen/Roboto);
+
+
+:root {
+    --main-bg-color: brown;
+    --primary-color : #1f221f;
+    --secondary-color: #d5c4c4;
+    --accent1:#fab3bf;
+    --accent2:#7a4646;
+
+    --heading-font:'roboto';
+    --paragraph-font: 'raleway';
+
+
+    
+    --nav-background-color: #efdbdb;
+    --nav-link-color:#0000;
+    --nav-hover-link-color:#ffe1e1;
+    --nav-hover-background-color: #d89393;
+  }
+
+
+  body {
+
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+  }
+  
+
+  h1, h2, h3, h4 {
+
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+  
+
+  header{
+
+    padding: 20px;
+    background-color: var(--accent1);
+  }
+
+  p {
+    padding: 25px;
+  }
+
+  nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+
+
+  nav a{
+    display: block;
+    color: var(--nav-link-color);
+
+  }
+
+
+  nav a:link, nav a :visited{
+    color: var(--nav-link-color);
+  }
+
+
+  nav a:hover{
+
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }

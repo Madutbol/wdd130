@@ -1,0 +1,124 @@
+@import url(https://fonts.google.com/specimen/Roboto);
+
+
+:root {
+    --main-bg-color: brown;
+    --primary-color : #1f221f;
+    --secondary-color: #d5c4c4;
+    --accent1:#fab3bf;
+    --accent2:#7a4646;
+
+    --heading-font:'roboto';
+    --paragraph-font: 'raleway';
+
+
+    
+    --nav-background-color: #efdbdb;
+    --nav-link-color:#0000;
+    --nav-hover-link-color:#ffe1e1;
+    --nav-hover-background-color: #d89393;
+  }
+
+  body {
+
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    list-style: none;
+  }
+  
+
+  h1, h2 {
+
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+  
+
+  header{
+
+    padding: 20px;
+    background-color: var(--accent1);
+    margin: 0%;
+    padding: 0%;
+  }
+
+  p {
+    padding: 25px;
+    padding-bottom: 20%;
+  }
+
+  nav{
+    background-color: var(--nav-background-color);
+    font-size: 2rem;
+    display: flex;
+    margin: 0%;
+    padding: 0%;
+  }
+
+.hero img{
+
+    display:block;
+    width: 40%;
+    height: auto;
+    
+}
+
+section{
+
+    font-weight: bolder;
+    font-size: 150%;
+    
+}
+
+h2{
+
+    padding-left: 40%;
+    
+}
+
+h1{
+    position: absolute;
+}
+
+
+
+.sociallinks img{
+
+    width: 35%;
+    height: fit-content;
+}
+
+
+.hero h1{
+
+    padding-right: 0%;
+
+}
+
+
+
+.in a {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0%;
+
+    margin-right: 10%;
+
+    padding-right: 5%;
+}
+
+.on img{
+
+    float: right;
+    
+}
+
+
+.on p{
+
+    padding: 0%;
+    padding-top: 10%;
+    font-size: 20px;
+}
